@@ -1,16 +1,4 @@
-This compressed folder contains 12 HIV fastq files.
 
+The fastqc_files.py script was used to run FASTQC on the HIV_Study data found in the test_dataset folder. The output of the FASTQC can be found in the fastqc_out_1 folder.
 
-Several programs exist, the most widely used is Trimmomatic (http://www.usadellab.org/cms/?page=trimmomatic), which is a Java based program that implements all of the above on either single-end, or paired-end FASTQ sequence libraries.
-
-For this assignment you are going to
-
-install the latest version of trimmomatic on your laptop/desktop
-
-update your .bashrc file to allow the Java program to be run in any terminal
-
-write a Python script that
-
-accesses the FASTQ files from the test_data directory
-loop over each file in the list, running trimmomatic using its default settings as reported on the package webpage for SE (single-end) reads
-put the trimmed FASTQ files in a new subdirectory called trimmed_out
+The trimm_script.py script was used to perform some QC trimming on the data using the trimmomatic java program. The output can be founf in the trimed_out folder.
